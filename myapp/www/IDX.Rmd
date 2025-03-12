@@ -1,0 +1,48 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+list.files()
+```
+
+```{r}
+library(readxl)
+
+```
+
+
+```{r}
+dat <- read_xlsx("data sektor technology.xlsx")
+
+dat <- as.data.frame(dat)
+
+dat
+
+```
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+dat[c("Share")]
+
+```
+
+
+
+
+
+
+
+
+
